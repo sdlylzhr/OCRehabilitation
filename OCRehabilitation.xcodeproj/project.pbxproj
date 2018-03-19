@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D7AA26588F1ADC4AF2FA33B /* libPods-OCRehabilitation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0084FEB6C40BB81BA65607F /* libPods-OCRehabilitation.a */; };
+		D7F496BE20526A55000127C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F496BD20526A55000127C8 /* AppDelegate.m */; };
+		D7F496C120526A55000127C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F496C020526A55000127C8 /* ViewController.m */; };
+		D7F496C420526A55000127C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7F496C220526A55000127C8 /* Main.storyboard */; };
+		D7F496C720526A55000127C8 /* OCRehabilitation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D7F496C520526A55000127C8 /* OCRehabilitation.xcdatamodeld */; };
+		D7F496C920526A55000127C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7F496C820526A55000127C8 /* Assets.xcassets */; };
+		D7F496CC20526A55000127C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7F496CA20526A55000127C8 /* LaunchScreen.storyboard */; };
+		D7F496CF20526A55000127C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F496CE20526A55000127C8 /* main.m */; };
+		D7F496DA20526AFD000127C8 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = D7F496D920526AFD000127C8 /* Podfile */; };
+		D7F496DE20526FB1000127C8 /* LZNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F496DD20526FB1000127C8 /* LZNetwork.m */; };
+		D7F496E020527F6F000127C8 /* 000071A7.png in Resources */ = {isa = PBXBuildFile; fileRef = D7F496DF20527F6E000127C8 /* 000071A7.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B70964831D609DCF6AFA74D /* Pods-OCRehabilitation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCRehabilitation.release.xcconfig"; path = "Pods/Target Support Files/Pods-OCRehabilitation/Pods-OCRehabilitation.release.xcconfig"; sourceTree = "<group>"; };
+		C7A70BAB1A08BE8633BDE4A1 /* Pods-OCRehabilitation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCRehabilitation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OCRehabilitation/Pods-OCRehabilitation.debug.xcconfig"; sourceTree = "<group>"; };
+		D7F496B920526A55000127C8 /* OCRehabilitation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCRehabilitation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7F496BC20526A55000127C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D7F496BD20526A55000127C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D7F496BF20526A55000127C8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D7F496C020526A55000127C8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D7F496C320526A55000127C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7F496C620526A55000127C8 /* OCRehabilitation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OCRehabilitation.xcdatamodel; sourceTree = "<group>"; };
+		D7F496C820526A55000127C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7F496CB20526A55000127C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7F496CD20526A55000127C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7F496CE20526A55000127C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D7F496D920526AFD000127C8 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D7F496DC20526FB1000127C8 /* LZNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZNetwork.h; sourceTree = "<group>"; };
+		D7F496DD20526FB1000127C8 /* LZNetwork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZNetwork.m; sourceTree = "<group>"; };
+		D7F496DF20527F6E000127C8 /* 000071A7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 000071A7.png; sourceTree = "<group>"; };
+		E0084FEB6C40BB81BA65607F /* libPods-OCRehabilitation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OCRehabilitation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7F496B620526A55000127C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D7AA26588F1ADC4AF2FA33B /* libPods-OCRehabilitation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		297D41FA0785F17D138728AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7A70BAB1A08BE8633BDE4A1 /* Pods-OCRehabilitation.debug.xcconfig */,
+				5B70964831D609DCF6AFA74D /* Pods-OCRehabilitation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		717D7041BAB5429C59BDFEA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0084FEB6C40BB81BA65607F /* libPods-OCRehabilitation.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7F496B020526A55000127C8 = {
+			isa = PBXGroup;
+			children = (
+				D7F496D920526AFD000127C8 /* Podfile */,
+				D7F496BB20526A55000127C8 /* OCRehabilitation */,
+				D7F496BA20526A55000127C8 /* Products */,
+				297D41FA0785F17D138728AC /* Pods */,
+				717D7041BAB5429C59BDFEA0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D7F496BA20526A55000127C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7F496B920526A55000127C8 /* OCRehabilitation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7F496BB20526A55000127C8 /* OCRehabilitation */ = {
+			isa = PBXGroup;
+			children = (
+				D7F496DB20526D66000127C8 /* Utils */,
+				D7F496BC20526A55000127C8 /* AppDelegate.h */,
+				D7F496BD20526A55000127C8 /* AppDelegate.m */,
+				D7F496BF20526A55000127C8 /* ViewController.h */,
+				D7F496C020526A55000127C8 /* ViewController.m */,
+				D7F496C220526A55000127C8 /* Main.storyboard */,
+				D7F496DF20527F6E000127C8 /* 000071A7.png */,
+				D7F496C820526A55000127C8 /* Assets.xcassets */,
+				D7F496CA20526A55000127C8 /* LaunchScreen.storyboard */,
+				D7F496CD20526A55000127C8 /* Info.plist */,
+				D7F496CE20526A55000127C8 /* main.m */,
+				D7F496C520526A55000127C8 /* OCRehabilitation.xcdatamodeld */,
+			);
+			path = OCRehabilitation;
+			sourceTree = "<group>";
+		};
+		D7F496DB20526D66000127C8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D7F496DC20526FB1000127C8 /* LZNetwork.h */,
+				D7F496DD20526FB1000127C8 /* LZNetwork.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7F496B820526A55000127C8 /* OCRehabilitation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7F496D220526A55000127C8 /* Build configuration list for PBXNativeTarget "OCRehabilitation" */;
+			buildPhases = (
+				004ABB621CB79886C7815582 /* [CP] Check Pods Manifest.lock */,
+				D7F496B520526A55000127C8 /* Sources */,
+				D7F496B620526A55000127C8 /* Frameworks */,
+				D7F496B720526A55000127C8 /* Resources */,
+				C681906205E78BE526050640 /* [CP] Embed Pods Frameworks */,
+				B10DF76212B37B09E5D7022E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCRehabilitation;
+			productName = OCRehabilitation;
+			productReference = D7F496B920526A55000127C8 /* OCRehabilitation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7F496B120526A55000127C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = lizhongren;
+				TargetAttributes = {
+					D7F496B820526A55000127C8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D7F496B420526A55000127C8 /* Build configuration list for PBXProject "OCRehabilitation" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7F496B020526A55000127C8;
+			productRefGroup = D7F496BA20526A55000127C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7F496B820526A55000127C8 /* OCRehabilitation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7F496B720526A55000127C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7F496CC20526A55000127C8 /* LaunchScreen.storyboard in Resources */,
+				D7F496C920526A55000127C8 /* Assets.xcassets in Resources */,
+				D7F496DA20526AFD000127C8 /* Podfile in Resources */,
+				D7F496C420526A55000127C8 /* Main.storyboard in Resources */,
+				D7F496E020527F6F000127C8 /* 000071A7.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		004ABB621CB79886C7815582 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OCRehabilitation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B10DF76212B37B09E5D7022E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OCRehabilitation/Pods-OCRehabilitation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C681906205E78BE526050640 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OCRehabilitation/Pods-OCRehabilitation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7F496B520526A55000127C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7F496C720526A55000127C8 /* OCRehabilitation.xcdatamodeld in Sources */,
+				D7F496C120526A55000127C8 /* ViewController.m in Sources */,
+				D7F496CF20526A55000127C8 /* main.m in Sources */,
+				D7F496BE20526A55000127C8 /* AppDelegate.m in Sources */,
+				D7F496DE20526FB1000127C8 /* LZNetwork.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D7F496C220526A55000127C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7F496C320526A55000127C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7F496CA20526A55000127C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7F496CB20526A55000127C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7F496D020526A55000127C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D7F496D120526A55000127C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7F496D320526A55000127C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7A70BAB1A08BE8633BDE4A1 /* Pods-OCRehabilitation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78PS927G2J;
+				INFOPLIST_FILE = OCRehabilitation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lzhr.OCRehabilitation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7F496D420526A55000127C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B70964831D609DCF6AFA74D /* Pods-OCRehabilitation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78PS927G2J;
+				INFOPLIST_FILE = OCRehabilitation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lzhr.OCRehabilitation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7F496B420526A55000127C8 /* Build configuration list for PBXProject "OCRehabilitation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7F496D020526A55000127C8 /* Debug */,
+				D7F496D120526A55000127C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7F496D220526A55000127C8 /* Build configuration list for PBXNativeTarget "OCRehabilitation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7F496D320526A55000127C8 /* Debug */,
+				D7F496D420526A55000127C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D7F496C520526A55000127C8 /* OCRehabilitation.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D7F496C620526A55000127C8 /* OCRehabilitation.xcdatamodel */,
+			);
+			currentVersion = D7F496C620526A55000127C8 /* OCRehabilitation.xcdatamodel */;
+			path = OCRehabilitation.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D7F496B120526A55000127C8 /* Project object */;
+}
