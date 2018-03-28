@@ -27,6 +27,7 @@
     [btn addTarget:self action:@selector(btnAction:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
     
+    
 }
 
 - (void)btnAction:(UIButton *)btn {
