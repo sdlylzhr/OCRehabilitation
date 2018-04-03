@@ -18,6 +18,7 @@
 		D7F496DA20526AFD000127C8 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = D7F496D920526AFD000127C8 /* Podfile */; };
 		D7F496DE20526FB1000127C8 /* LZNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F496DD20526FB1000127C8 /* LZNetwork.m */; };
 		D7F496E020527F6F000127C8 /* 000071A7.png in Resources */ = {isa = PBXBuildFile; fileRef = D7F496DF20527F6E000127C8 /* 000071A7.png */; };
+		D7FDF3222073250900CAB921 /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FDF3212073250900CAB921 /* LoginViewModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,10 @@
 		D7F496DC20526FB1000127C8 /* LZNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZNetwork.h; sourceTree = "<group>"; };
 		D7F496DD20526FB1000127C8 /* LZNetwork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZNetwork.m; sourceTree = "<group>"; };
 		D7F496DF20527F6E000127C8 /* 000071A7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 000071A7.png; sourceTree = "<group>"; };
+		D7FDF307207319B600CAB921 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		D7FDF30920731BE700CAB921 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		D7FDF3202073250900CAB921 /* LoginViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewModel.h; sourceTree = "<group>"; };
+		D7FDF3212073250900CAB921 /* LoginViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewModel.m; sourceTree = "<group>"; };
 		E0084FEB6C40BB81BA65607F /* libPods-OCRehabilitation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OCRehabilitation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -65,6 +70,8 @@
 		717D7041BAB5429C59BDFEA0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D7FDF30920731BE700CAB921 /* libstdc++.tbd */,
+				D7FDF307207319B600CAB921 /* libz.tbd */,
 				E0084FEB6C40BB81BA65607F /* libPods-OCRehabilitation.a */,
 			);
 			name = Frameworks;
@@ -97,6 +104,8 @@
 				D7F496BD20526A55000127C8 /* AppDelegate.m */,
 				D7F496BF20526A55000127C8 /* ViewController.h */,
 				D7F496C020526A55000127C8 /* ViewController.m */,
+				D7FDF3202073250900CAB921 /* LoginViewModel.h */,
+				D7FDF3212073250900CAB921 /* LoginViewModel.m */,
 				D7F496C220526A55000127C8 /* Main.storyboard */,
 				D7F496DF20527F6E000127C8 /* 000071A7.png */,
 				D7F496C820526A55000127C8 /* Assets.xcassets */,
@@ -246,6 +255,7 @@
 			files = (
 				D7F496C720526A55000127C8 /* OCRehabilitation.xcdatamodeld in Sources */,
 				D7F496C120526A55000127C8 /* ViewController.m in Sources */,
+				D7FDF3222073250900CAB921 /* LoginViewModel.m in Sources */,
 				D7F496CF20526A55000127C8 /* main.m in Sources */,
 				D7F496BE20526A55000127C8 /* AppDelegate.m in Sources */,
 				D7F496DE20526FB1000127C8 /* LZNetwork.m in Sources */,
@@ -385,6 +395,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 78PS927G2J;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
 				INFOPLIST_FILE = OCRehabilitation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lzhr.OCRehabilitation;
@@ -400,6 +411,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 78PS927G2J;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
 				INFOPLIST_FILE = OCRehabilitation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lzhr.OCRehabilitation;

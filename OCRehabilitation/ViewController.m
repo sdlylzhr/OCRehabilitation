@@ -9,26 +9,75 @@
 #import "ViewController.h"
 #import "LZNetwork.h"
 
+#import "LoginViewModel.h"
+
+#import <ReactiveCocoa/ReactiveCocoa.h>
+#import <ReactiveCocoa/RACEXTScope.h>
+
+
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *userField;
+@property (weak, nonatomic) IBOutlet UITextField *pwdField;
+@property (weak, nonatomic) IBOutlet UIButton *loginBtn;
+
+@property (nonatomic, strong) LoginViewModel *loginVM;
 
 @end
 
 @implementation ViewController
 
+
+- (LoginViewModel *)loginVM{
+    
+    if (_loginVM == NULL) {
+        _loginVM = [[LoginViewModel alloc]init];
+    }
+    return _loginVM;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    [LZNetwork startNet];
+
+    RAC(self.loginVM, account) = _userField.rac_textSignal;
     
-    UIButton *btn = [UIButton buttonWithType:UIButtonTypeSystem];
-    [btn setBackgroundColor:[UIColor redColor]];
-    [btn setFrame:CGRectMake(20, 20, 200, 200)];
-    [btn addTarget:self action:@selector(btnAction:) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:btn];
+    RAC(self.loginVM, password) = _pwdField.rac_textSignal;
+
+    RAC(_loginBtn, enabled) = self.loginVM.btnEnableSignal;
+    
+    
+    [self.loginVM.loginCommand.executionSignals.switchToLatest subscribeNext:^(id x) {
+       
+        NSLog(@"登录成功, 跳转页面");
+    }];
+    
+    
+    [[_loginBtn rac_signalForControlEvents:UIControlEventTouchUpInside] subscribeNext:^(UIControl *x) {
+       
+        NSLog(@"点击啦啦啦啦");
+        
+        [self.loginVM.loginCommand execute:@{@"account":_userField.text, @"password":_pwdField.text}];
+        
+    }];
+    
+}
+
+- (void)xxx{
+    
+//    RAC(_loginBtn, enabled) = [RACSignal combineLatest:@[_userField.rac_textSignal, _pwdField.rac_textSignal] reduce:^id (NSString *account, NSString *password){
+//        return @(account.length && (password.length > 5));
+//    }];
+    
+    
+    
+    
+    
+    
     
     
 }
+
 
 - (void)btnAction:(UIButton *)btn {
     
@@ -41,6 +90,5 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
 
 @end
